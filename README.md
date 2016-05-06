@@ -4,7 +4,8 @@
 ### 操作步骤
 1. 指定您的云账户信息
 2. 指定运行应用环境的主机配置信息
-3. 指定您的程序代码获取路径（目前支持通过 GitHub 项目路径获取，和通过 URL 获取 zip 源码包两种方式）
+3. 指定您的程序代码获取路径（目前支持通过 GitHub 项目路径获取，和通过 URL 获取 zip 源码包两种方式)  
+`https://github.com/neucloud-ncae/ncae-example-php.git`<br> `http://neucloud.oss-cn-beijing.aliyuncs.com/softwares/ncae/ncae-example-php-master.zip`
 4. 指定您程序后端数据库的连接信息：数据库地址、数据库库名、数据库用户、数据库密码（此步骤可选，这些选项默认为空值）
 5. 执行部署操作
 6. 部署执行成功后，根据平台提供的方式登录服务器，完成您程序的后续的配置
