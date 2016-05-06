@@ -20,8 +20,8 @@
 如何处理 PHP 的库依赖关系？
 >  我们已经在应用服务器内预置了 composer 依赖管理工具，如果您已经在项目中通过 composer.json 声明了程序所依赖的外部库关系，可以直接在项目路径下执行类似这样的命令调用 composer 自动处理依赖关系：  
 ```
-$ composer install --prefer-source --no-interaction
+$ /usr/local/bin/composer.phar install
 ````
 
 程序发布目录的路径？
-> 
+> 您的程序所在目录：/var/www/html
