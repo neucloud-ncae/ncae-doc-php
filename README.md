@@ -4,8 +4,8 @@
 ### 操作步骤
 1. 指定您的云账户信息；
 2. 指定运行应用环境的主机配置信息；
-3. 指定您的程序代码获取路径；（目前支持通过 GitHub 项目路径获取，和通过 URL 获取 zip 源码包两种方式） <br />
-`https://github.com/neucloud-ncae/ncae-example-php.git` <br />
+3. 指定您的程序代码获取路径；（目前支持通过 GitHub 项目路径获取，和通过 URL 获取 zip 源码包两种方式）  
+`https://github.com/neucloud-ncae/ncae-example-php.git`  
 `http://neucloud.oss-cn-beijing.aliyuncs.com/softwares/ncae/ncae-example-php-master.zip`
 4. 指定您程序后端数据库的连接信息：数据库地址、数据库库名、数据库用户、数据库密码；（此步骤可选，这些选项默认为空值）
 5. 执行部署操作；
@@ -13,10 +13,10 @@
 
 ### 常见问题
 如何配置数据库连接？
-> 您之前所填写的数据库连接信息，都在应用服务器中以环境变量的形式进行了映射，其对应关系： <br />
-数据库地址：`DB_ADDR` <br />
-数据库库名：`DB_NAME` <br />
-数据库用户：`DB_USER` <br />
+> 您之前所填写的数据库连接信息，都在应用服务器中以环境变量的形式进行了映射，其对应关系：  
+数据库地址：`DB_ADDR`  
+数据库库名：`DB_NAME`  
+数据库用户：`DB_USER`  
 数据库密码：`DB_PASSWORD`
 
 如何处理 PHP 的库依赖关系？
